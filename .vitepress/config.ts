@@ -1,8 +1,11 @@
+const base = process.env.BASE || '/'
 import { defineConfig } from "vitepress";
+import {sidebar} from './sidebar/index'
 
 // --vp-code-block-bg
 export default defineConfig({
-  title: "VitePress",
+  title: "TS 从零实现 axios",
+  base,
   markdown: {
     theme: {
       light: "vitesse-light",
@@ -10,12 +13,11 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: "/cat.png",
-    siteTitle: "VitePress",
+    logo: "/typescript.png",
+    siteTitle: "TS 从零实现 axios",
 
     nav: [
-      { text: "Guide", link: "/guide/" },
-      // { text: "github", link: "https://github.com/SuYxh" },
+      { text: "TS-Axios", link: "https://github.com/SuYxh/ts-axios" },
     ],
 
     socialLinks: [
@@ -28,26 +30,11 @@ export default defineConfig({
       },
     ],
 
-    sidebar: [
-      {
-        text: "基础",
-        items: [
-          { text: "快速开始", link: "/guide/" },
-          { text: "使用方法", link: "/guide/usage" },
-        ],
-      },
-      {
-        text: "组件",
-        items: [
-          { text: "ComA 组件A", link: "/components/comA" },
-          { text: "ComB 组件B", link: "/components/comB" },
-        ],
-      },
-    ],
+    sidebar,
 
     footer: {
-      message: "我们不生产文章，只是文章的搬运工。",
-      // copyright: "那我就随便写个吧",
+      message: "既然选择了远方，便只顾风雨兼程",
+      copyright: "Copyright © 2022-future",
     },
   },
 });

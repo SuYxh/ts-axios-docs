@@ -1,28 +1,30 @@
 {
-  "name": "vitepress-fun",
-  "description": "vitepress趣玩系列工程",
+  "name": "typescript-axios",
+  "description": "TS 从零实现 axios",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "@types/node": "^18.11.12",
     "vue": "^3.2.37"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "vitepress": "^1.0.0-alpha.8"
   },
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
+    "build": "cross-env BASE=/ts-axios-docs/ vitepress build",
     "serve": "vitepress serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gumingWu/vitepress-fun.git"
+    "url": "git+https://github.com/SuYxh/ts-axios-docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gumingWu/vitepress-fun/issues"
+    "url": "https://github.com/SuYxh/ts-axios-docs/issues"
   },
-  "homepage": "https://github.com/gumingWu/vitepress-fun#readme"
+  "homepage": "https://github.com/SuYxh/ts-axios-docs#readme"
 }

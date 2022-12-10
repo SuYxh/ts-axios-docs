@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: VitePress-Demo
-  text: VitePress模板
-  tagline: This is an empty template...
+  name: TS 从零实现 axios
+  # text: VitePress模板
+  tagline: 学习使用 TypeScript 从零实现 axios 库
   image:
-    src: /cat.png
+    src: /typescript-def.png
     # src: /vue-logo.png
     alt: VitePress
   actions:
@@ -19,12 +19,12 @@ hero:
 
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: Typescript 基础
+    details: 基础类型、接口、类、函数、泛型、类型推断、高级类型...
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: axios库功能重构
+    details: 基础功能、异常处理、接口扩展、拦截器、取消功能、自定义参数序列化、静态方法扩展...
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 项目测试与发布
+    details: 测试环境搭建、整个axios库的单元测试、部署构建脚本、发布npm...
 ---
