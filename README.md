@@ -1,2 +1,2 @@
-# vitepress-fun
-vitepress趣玩系列工程
+# vitepress-demo
+vitepress空模板
