@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a as s}from"./app.494a6664.js";const x=JSON.parse('{"title":"TS \u4ECE\u96F6\u5B9E\u73B0 axios","description":"","frontmatter":{},"headers":[],"relativePath":"README.md"}'),o={name:"README.md"},r=s("",6),c=[r];function p(i,h,n,_,m,d){return e(),a("div",null,c)}const l=t(o,[["render",p]]);export{x as __pageData,l as default};
